@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: plum;
+  list-style: none;
+}
+li{
+  padding: 10px;
+}
+li>a{
+  padding: 10px;
+  color: white;
+  background: rgba(100, 100, 100, 0.1);
+  font-size: 12pt;
+  text-decoration: none;
+}
+.red-text{
+  color: red;
+}
+.orange-text{
+  color: orange;
+}
+.green-text{
+  color: green;
+}
+.blue-text{
+  color: blue;
+}
+.purple-text{
+  color: purple;
+}
+.gray-text{
+  color: gray;
+}

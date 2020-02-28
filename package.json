@@ -1,0 +1,27 @@
+{
+  "name": "react-19-01-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsa-project/react-routes.git"
+  },
+  "author": "MrSalsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salsa-project/react-routes/issues"
+  },
+  "homepage": "https://github.com/salsa-project/react-routes#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}
